@@ -11,7 +11,7 @@
 ## Usage syntax
 
 ```text
-python iocminer.py <pcap-file>.pcap
+python iocminer.py <pcap-filename>.pcap
 ```
 ## Requirements
   
