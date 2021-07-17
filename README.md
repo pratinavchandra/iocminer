@@ -27,3 +27,7 @@ pip install requests
   ```text
 pip install beautifulsoup4
 ```
+### colorama
+  ```text
+pip install colorama
+```
