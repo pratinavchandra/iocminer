@@ -1,6 +1,5 @@
 <p align="center">
-  <a href="https://example.com/">
-    <img src="https://via.placeholder.com/72" alt="Logo" width=72 height=72>
+    <img src="https://cdn.icon-icons.com/icons2/1965/PNG/512/tool10_122839.png" alt="Logo" width=90 height=90>
   </a>
 
   <h3 align="center">IoC Miner</h3>
