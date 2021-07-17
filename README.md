@@ -8,12 +8,16 @@
     A python tool that analyzes a supplied pcap file and attempts to collect all possible indicators of compromise and runs reputation checks. It generates an HTML incident report containing all possible malicious traffic and a list of IoCs found which saves time and provides a good starting point while working on an incident.
     <br>
 
-## Usage syntax
-
+## Usage -
+Clone repository    
+```text
+git clone https://github.com/pratinavchandra/iocminer.git
+```
+Run script    
 ```text
 python iocminer.py <pcap-filename>.pcap
 ```
-## Requirements
+## Requirements -
   
 ### scapy
   ```text
