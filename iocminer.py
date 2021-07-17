@@ -8,7 +8,6 @@ import os
 warnings.filterwarnings("ignore")
 print(Fore.CYAN+"[+] Analyzing PCAP...")
 print("")
-#path="/Users/pratinavchandra/Desktop/test2.pcap"
 path=sys.argv[1]
 packets = rdpcap(path) #PCAP location
 request_urls=[]
