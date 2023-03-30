@@ -25,7 +25,7 @@ def extract_urls():
     report=report+"<h2 style=\"text-align:center\">Possibly Malicious URLs:</h2>\n"
     for packet in packets:
         if packet.haslayer("HTTPRequest"):
-            url=packet.getlayer('HTTPRequest').fields['Host']
+            url=packet.getlayer('HTTPRequest').fields['Host'].decode('UTF-8')
             if url in request_urls:
                 continue
             else:
